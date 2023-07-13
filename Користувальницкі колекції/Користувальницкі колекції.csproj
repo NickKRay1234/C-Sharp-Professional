@@ -9,4 +9,8 @@
         <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Folder Include="Program1" />
+    </ItemGroup>
+
 </Project>
