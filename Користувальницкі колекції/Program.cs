@@ -6,8 +6,53 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        //ElementRealization();
+        var list = new ArrayList();
 
+        string s = "Hello";
+        list.Add(s);
+        list.Add("hello");
+        list.Add(50);
+        list.Add(new object());
+
+        var anArray = new[] { "more", "or", "less" };
+        list.AddRange(anArray);
+
+        var anotherArray = new[] { new object(), new ArrayList() };
+        list.AddRange(anotherArray);
+        
+        list.Insert(3, "Hey All");
+
+        var moreString = new[] { "goodnight", "see ya" };
+        list.InsertRange(4, moreString);
+        
+        
+        
+        
+        
+        
+        
+        //ElementRealization();
+        //MonthRealization();
+
+        //var collection = new Task3Collection();
+        
+        //collection[0] = new 
+
+        foreach (int i in ProduceEvenNumbers(9))
+        {
+            Console.Write(i);
+            Console.Write(" ");
+        }
+        
+        IEnumerable<int> ProduceEvenNumbers(int upto)
+        {
+            for (int i = 0; i <= upto; i += 2)
+                yield return i;
+        }
+    }
+
+    static void MonthRealization()
+    {
         var collection = new MonthCollection();
 
         collection[0] = new Month("January", 0, 31);
@@ -32,12 +77,7 @@ internal class Program
 
         var monthByOder = collection.GetMonthByOrder(3);
         Console.WriteLine(monthByOder.MonthName + " Days: " + monthByOder.NumberOfDays);
-        
-
-        Console.ReadKey();
     }
-
-
     static void ElementRealization()
     {
         var collection = new UserCollection<Element>();
