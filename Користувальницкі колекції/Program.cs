@@ -6,6 +6,45 @@ internal class Program
 {
     private static void Main(string[] args)
     {
+        var queue = new Queue();
+        queue.Enqueue("An item"); // Добавлять элемент в конец очереди.
+        Console.WriteLine(queue.Dequeue()); // Возвращать первый элемент очереди, удаляя его. 
+
+        var queue1 = new Queue();
+        queue.Enqueue("First");
+        queue.Enqueue("Second");
+        queue.Enqueue("Third");
+        queue.Enqueue("Fourth");
+
+        object element = queue.Peek();
+        Console.WriteLine(element as string);
+
+
+
+        //ElementRealization();
+        //MonthRealization();
+        //ArrayListTest();
+
+        //var collection = new Task3Collection();
+        
+        //collection[0] = new 
+
+        foreach (int i in ProduceEvenNumbers(9))
+        {
+            Console.Write(i);
+            Console.Write(" ");
+        }
+        
+        IEnumerable<int> ProduceEvenNumbers(int upto)
+        {
+            for (int i = 0; i <= upto; i += 2)
+                yield return i;
+        }
+    }
+
+
+    static void ArrayListTest()
+    {
         var list = new ArrayList();
 
         string s = "Hello";
@@ -24,31 +63,6 @@ internal class Program
 
         var moreString = new[] { "goodnight", "see ya" };
         list.InsertRange(4, moreString);
-        
-        
-        
-        
-        
-        
-        
-        //ElementRealization();
-        //MonthRealization();
-
-        //var collection = new Task3Collection();
-        
-        //collection[0] = new 
-
-        foreach (int i in ProduceEvenNumbers(9))
-        {
-            Console.Write(i);
-            Console.Write(" ");
-        }
-        
-        IEnumerable<int> ProduceEvenNumbers(int upto)
-        {
-            for (int i = 0; i <= upto; i += 2)
-                yield return i;
-        }
     }
 
     static void MonthRealization()
