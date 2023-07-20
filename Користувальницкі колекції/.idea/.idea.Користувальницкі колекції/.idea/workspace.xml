@@ -8,12 +8,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3720604-7cb6-4c3e-832d-f888c757268d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Користувальницкі колекції/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Користувальницкі колекції/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Користувальницкі колекції/.idea/projectSettingsUpdater.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Користувальницкі колекції/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Користувальницкі колекції/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Користувальницкі колекції/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/Користувальницкі колекції.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/Користувальницкі колекції.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/Користувальницкі колекції.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/Користувальницкі колекції.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/ref/Користувальницкі колекції.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/ref/Користувальницкі колекції.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/refint/Користувальницкі колекції.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/refint/Користувальницкі колекції.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/Користувальницкі колекції.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/Користувальницкі колекції.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/Користувальницкі колекції.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/Користувальницкі колекції.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Користувальницкі колекції.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Collection.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +33,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/42ce119ffb834ddf92d0f07e2a06acfeb1d878/_4c146/ICollection.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/42ce119ffb834ddf92d0f07e2a06acfeb1d878/_bb40f/IDisposable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/42ce119ffb834ddf92d0f07e2a06acfeb1d878/_fd827/IList.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/42ce119ffb834ddf92d0f07e2a06acfeb1d878/_fedf0/IComparer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/95344ef143e5ba6cf7e2a028b2c5a5e9dfc66b35e1ca4b455bc189f6abec1ae/ArrayList.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -77,7 +85,9 @@
       <workItem from="1689244891700" duration="6583000" />
       <workItem from="1689254236106" duration="6914000" />
       <workItem from="1689428162229" duration="1997000" />
-      <workItem from="1689506649446" duration="388000" />
+      <workItem from="1689506649446" duration="3480000" />
+      <workItem from="1689534020926" duration="2283000" />
+      <workItem from="1689690589639" duration="1123000" />
     </task>
     <task id="LOCAL-00001" summary="IEnumerator, IEnumerable, IDisposable;">
       <created>1689250434023</created>
@@ -100,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689429626534</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="QUEUE">
+      <created>1689507229914</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1689507229915</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +141,7 @@
     <MESSAGE value="IEnumerator, IEnumerable, IDisposable;" />
     <MESSAGE value="Create a collection that stores the names of the 12 months, the sequence number and the&#10;number of days in the corresponding month. Implement the ability to select months by both&#10;number and the number of days in the month, and the result can be more than just one month.&#10;only one month." />
     <MESSAGE value="ArrayList" />
-    <option name="LAST_COMMIT_MESSAGE" value="ArrayList" />
+    <MESSAGE value="QUEUE" />
+    <option name="LAST_COMMIT_MESSAGE" value="QUEUE" />
   </component>
 </project>
